@@ -1,5 +1,5 @@
 # Duklock ban bot documentation
 
 
-Discord module
-commands
+## Discord module
+### Commands
