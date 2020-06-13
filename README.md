@@ -1,4 +1,4 @@
- Duklock ban bot documentation
+# Duklock ban bot documentation
 
 
 Discord module
