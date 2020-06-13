@@ -3,6 +3,7 @@
 
 ## Discord module
 ### Commands
+------------
 
 **fetchall**
 
