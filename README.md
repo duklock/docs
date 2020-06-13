@@ -2,7 +2,7 @@
 
 
 ## Discord module
-###Commands
+### Commands
 
 **fetchall**
 *prints every line of database*
