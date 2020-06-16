@@ -5,11 +5,11 @@
 ### Commands
 ------------
 
-**fetchall**
+**fetchall** [val]
 
 *prints every line of database*
 
-		example: .fetchall
+		example: .fetchall 10
 
 ------------
 
@@ -45,4 +45,4 @@
 
 *executes SQL commands*
 	
-		example: .setter UPDATE public.ban SET rem_posts=rem_posts+5 WHERE u='mirandanielcz'
+		example: .exe UPDATE public.ban SET rem_posts=rem_posts+5 WHERE u='mirandanielcz'
