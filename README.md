@@ -1,20 +1,23 @@
-# Duklock ban bot documentation
+# r/Duklock ban bot documentation
 
 
 ## Discord module
 ### Commands
 ------------
+*prefix =* `.`
 
-**fetchall** [val]
 
-*prints every line of database*
+
+**fetchall**/**fa** [val]
+
+*prints every line of database limited by val*
 
 		example: .fetchall 10
 
 ------------
 
 
-**fetch** [user] 
+**fetch**/**f** [user] 
 
 *prints user values*
 	
@@ -23,7 +26,7 @@
 ------------
 
 
-**insert** [user, removed_posts, bans] 
+**insert**/**i** [user, removed_posts, bans] 
 
 *adds a line (new user)*
 	
@@ -32,7 +35,7 @@
 ------------
 
 
-**setter** [username] [+/-{val}] 
+**setter**/**set** [username] [+/-{val}] 
 
 *changes the value of rem_posts for a user*
 	
@@ -46,3 +49,10 @@
 *executes SQL commands*
 	
 		example: .exe UPDATE public.ban SET rem_posts=rem_posts+5 WHERE u='mirandanielcz'
+------------
+
+
+**info**
+*prints system info*
+	
+		example: info
