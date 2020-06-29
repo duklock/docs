@@ -8,6 +8,7 @@
 
 
 
+
 **fetchall**/**fa** [val]
 
 *prints every line of database limited by val*
@@ -53,6 +54,7 @@
 
 
 **info**
+
 *prints system info*
 	
 		example: info
