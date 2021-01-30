@@ -1,5 +1,5 @@
 # r/Duklock ban bot documentation
-
+# NO LONGER SUPPORTED
 
 ## Discord module
 ### Commands
